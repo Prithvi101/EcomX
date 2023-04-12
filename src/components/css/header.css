@@ -1,0 +1,16 @@
+.header__option{
+    float: left;
+    overflow: hidden;
+}
+.dropDownItem{
+    z-index: 100;
+    float: left;
+    overflow: hidden;
+}
+.header__option:hover .dropDownItem{
+    position: absolute;
+    left: 0;
+    width:100%;
+    display: flex;
+    overflow: hidden;
+}
