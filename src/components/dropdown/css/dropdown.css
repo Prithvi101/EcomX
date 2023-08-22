@@ -1,0 +1,12 @@
+
+.header__dropDownItem{
+    height: 0;
+    opacity: 1;
+    transform: translateY(-10px);
+    transition: all 150ms ease-in-out, transform 200ms ease-in-out;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.dropDownItemActive{
+    height: auto;
+    transform: translateY(0);
+}

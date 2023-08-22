@@ -1,0 +1,12 @@
+
+.cardBig:hover >img{
+    transition: opacity 400ms ease-in-out, transform 150ms ease-in-out;
+    opacity: 0.5;}
+.cardBig:hover >button{
+    color:#fff;
+    background: linear-gradient(to bottom, #fff 50%, #000 50%);
+    background-size: 100% 200%;
+    background-position: bottom left;
+    transition: all 200ms ease-in-out;
+  
+}

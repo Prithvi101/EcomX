@@ -1,0 +1,10 @@
+.cardmid__controls{
+    top: 100%;
+    position: absolute;
+    transition: all .5s ease-out;
+    height: 100%;
+}
+.cardmid__controlsActive{
+    top:0%;
+    z-index: 100;
+}
